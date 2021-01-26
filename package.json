@@ -1,0 +1,27 @@
+{
+  "name": "uuid_generator",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "jquery": "^3.5.1",
+    "next": "latest",
+    "next-themes": "0.0.10",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "sbuttons": "^1.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.0.2",
+    "eslint": "^7.18.0",
+    "file-loader": "^6.2.0",
+    "postcss": "8.1.7",
+    "stylelint-config-recommended": "^3.0.0",
+    "tailwindcss": "^2.0.2"
+  },
+  "license": "MIT"
+}
