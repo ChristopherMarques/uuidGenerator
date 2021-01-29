@@ -13,7 +13,7 @@
     "next-themes": "0.0.10",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "sbuttons": "^1.1.0"
+    "sbuttons": "https://github.com/ChristopherMarques/sbuttons/tarball/master"
   },
   "devDependencies": {
     "autoprefixer": "10.0.2",

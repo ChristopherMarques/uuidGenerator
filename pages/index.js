@@ -1,5 +1,4 @@
 import Nav from '../components/nav';
-import Image from 'next/image';
 
 
 export default function IndexPage() {
@@ -29,11 +28,7 @@ const create_UUID = () => {
       <Nav />
             <div className="grid justify-items-center">
 
-               <div className="text-center mt-5 pt-10 mb-0 my-0 p-0">
-                  <Image src="/logo_uuid.png" width="346" height="255"/>
-                </div>
-
-                <div className="mt-1">
+                <div className="mt-60">
                   <h1 className="text-4xl text-center mx-auto text-gray-700 dark:text-gray-100">
                     Welcome to the UUID Generator
                   </h1>
@@ -41,14 +36,15 @@ const create_UUID = () => {
                 </div>
 
                 <div className="my-10">
-                    <span className="p-0 bg-none shadow-none sbtn rainbow-border-btn animated">
-                      <input readOnly id="uuid_generated" className="text-black border-none" size="37"></input>
+                    <span className="p-0 sbtn rainbow-border-btn animated">
+                      <input readOnly id="uuid_generated" className="text-black" size="37"></input>
                     </span>
                 </div>
+                
 
-                <div className="flex items-center justify-between space-x-15">
-                  <button onClick={copy} className="sbtn colored-on-hover-btn purple-btn mx-36"><p className=" dark:text-white ">Copy</p></button>
-                  <button id="generate" onClick={create_UUID} className="sbtn gradient-btn purple-btn mx-36" role="Button" title="Generate a UUID">Generate</button>
+                <div className="flex items-center justify-between space-x-44">
+                  <button onClick={copy} className="sbtn gradient-border" title="Copy the UUID Generated"><p className=" dark:text-white ">Copy</p></button>
+                  <button id="generate" onClick={create_UUID} className="sbtn gradient-border" role="Button" title="Generate a UUID"><p className=" dark:text-white ">Generate</p></button>
                 </div>
               
             </div>
