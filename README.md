@@ -23,8 +23,8 @@ Use *git clone <repo>* on terminal to have this project on your machine
 
 Run *cd <folder of project>* to open the folder of project
 
-Run ```bash npm install ``` inside the folder to install the dependencies of this project.
+Run ```npm install ``` inside the folder to install the dependencies of this project.
 
-Run ```bash npm run dev ``` to run development server of this project on your machine
+Run ```npm run dev ``` to run development server of this project on your machine
 
 Just it! Now you can access this project by: localhost:3000 on your browser.
