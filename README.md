@@ -1,30 +1,30 @@
-# Tailwind CSS example
+# ✨ UUID Generator
 
-This example is a basic starting point for using [Tailwind CSS](https://tailwindcss.com) with Next.js.
+[![licence mit](https://img.shields.io/github/license/ChristopherMarques/roman2decimal)](https://github.com/ChristopherMarques/uuidGenerator/blob/main/LICENSE)
+[![#30Days30Projects](https://img.shields.io/badge/Part%20of%20Challenge-30Days30Projects-orange)](https://github.com/florinpop17/100Days100Projects)
 
-## Deploy your own
+> This is a project of a UUID Generator, that i've made to study NextJS and Tailwind CSS. 😀
+> This project was made as a part of #30Days30Projects Challenge, created by @florinpop17, that consists in: create a project per day along 30 days. 🤓
 
-Deploy the example using [Vercel](https://vercel.com):
+## Technologies i've used in this project
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+* Utility-first CSS framework: [Tailwind CSS](https://tailwindcss.com/) ✔
+* Framework React: [Next JS](https://nextjs.org) ✔
+* Sbuttons (for the buttons): [Sbuttons](https://sbuttons.github.io/sbuttons/) ✔
+* Host: [Vercel](https://vercel.com) ✔
 
-## How to use
+## How can you see the project?
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+> I've deployed this project on Vercel(The company that have created NextJS), and you can see a live preview here: [`Live Preview`](https://uuid-generator.vercel.app/)
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+## If you want to study with this project, here are steps:
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Use *git clone <repo>* on terminal to have this project on your machine
 
-## Notes
+Run *cd <folder of project>* to open the folder of project
 
-This example includes the following [PostCSS](https://github.com/postcss/postcss) plugins:
+Run ```bash npm install ``` inside the folder to install the dependencies of this project.
 
-- [tailwindcss](https://tailwindcss.com) - utility-first CSS framework
-- [autoprefixer](https://github.com/postcss/autoprefixer) - plugin to parse CSS and add vendor prefixes to CSS rules using values from [Can I Use](https://caniuse.com).
+Run ```bash npm run dev ``` to run development server of this project on your machine
 
-To control the generated stylesheet's filesize, this example uses Tailwind CSS' [`purge` option](https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css) to remove unused CSS.
+Just it! Now you can access this project by: localhost:3000 on your browser.
