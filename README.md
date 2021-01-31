@@ -1,6 +1,6 @@
 # ✨ UUID Generator
 
-[![licence mit](https://img.shields.io/github/license/ChristopherMarques/roman2decimal)](https://github.com/ChristopherMarques/uuidGenerator/blob/main/LICENSE)
+[![licence mit](https://img.shields.io/github/license/ChristopherMarques/uuidGenerator)](https://github.com/ChristopherMarques/uuidGenerator/blob/main/LICENSE)
 [![#30Days30Projects](https://img.shields.io/badge/Part%20of%20Challenge-30Days30Projects-orange)](https://github.com/florinpop17/100Days100Projects)
 
 > This is a project of a UUID Generator, that i've made to study NextJS and Tailwind CSS. 😀
