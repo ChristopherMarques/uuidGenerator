@@ -15,6 +15,9 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
+        <footer>
+          Built with <p title="Love">❤</p> by <a href="https://github.com/ChristopherMarques" target="_blank" className="text-indigo-600">Christopher Corrêa</a>
+        </footer>
       </Html>
     )
   }

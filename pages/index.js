@@ -24,33 +24,30 @@ const create_UUID = () => {
   }
   return (
     
-    <div className="bg-white dark:bg-gray-800">
-      <Nav />
-            <div className="grid justify-items-center">
-
-                <div className="mt-60">
-                  <h1 className="text-4xl text-center mx-auto text-gray-700 dark:text-gray-100">
-                    Welcome to the UUID Generator
-                  </h1>
-                  <p className="text-lg mt-3 text-center mx-auto text-gray-700 dark:text-gray-100">This is a Universally unique identifier, and this allow you to generate a <strong>unique</strong> ID ever than you press the button.</p>
-                </div>
-
-                <div className="my-10">
-                    <span className="p-0 sbtn rainbow-border-btn animated">
-                      <input readOnly id="uuid_generated" className="text-black" size="37"></input>
-                    </span>
-                </div>
-                
-
-                <div className="flex items-center justify-between space-x-44">
-                  <button onClick={copy} className="sbtn gradient-border" title="Copy the UUID Generated"><p className=" dark:text-white ">Copy</p></button>
-                  <button id="generate" onClick={create_UUID} className="sbtn gradient-border" role="Button" title="Generate a UUID"><p className=" dark:text-white ">Generate</p></button>
-                </div>
-              
-            </div>
-            
-          
+<div className="bg-white dark:bg-gray-800">
+   <Nav />
+   <div className="grid justify-items-center">
+      <div className="mt-60">
+         <h1 className="text-4xl text-center mx-auto text-gray-700 dark:text-gray-100">
+            Welcome to the UUID Generator
+         </h1>
+         <p className="text-lg mt-3 text-center mx-auto text-gray-700 dark:text-gray-100">This is a Universally unique identifier, and this allow you to generate a <strong>unique</strong> ID ever than you press the button.</p>
       </div>
+      <div className="my-10">
+         <span className="p-0 sbtn rainbow-border-btn animated">
+         <input readOnly id="uuid_generated" className="text-black" size="37"></input>
+         </span>
+      </div>
+      <div className="flex items-center justify-between space-x-44">
+         <button onClick={copy} className="sbtn gradient-border" title="Copy the UUID Generated">
+            <p className=" dark:text-white ">Copy</p>
+         </button>
+         <button id="generate" onClick={create_UUID} className="sbtn gradient-border" role="Button" title="Generate a UUID">
+            <p className=" dark:text-white ">Generate</p>
+         </button>
+      </div>
+   </div>
+</div>
       
   ) 
 }
